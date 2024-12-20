@@ -22,7 +22,7 @@ Dataset ini berisi informasi transaksi retail, mencakup detail produk, pelanggan
 | `Age`                | Integer   | Umur pelanggan.                            |
 | `Gender`             | String    | Jenis kelamin pelanggan.                   |
 
-## 🔍 Metadata Penting untuk Pengelolaan dan Penggunaan
+### 🔍 Metadata Penting untuk Pengelolaan dan Penggunaan
 1. **CustomerID**: Penting untuk melacak pelanggan unik dalam analisis perilaku pelanggan dan segmentasi.
 2. **ProductID**: Dibutuhkan untuk analisis inventarisasi dan tren produk.
 3. **TransactionDate**: Sangat penting untuk analisis tren penjualan berdasarkan waktu.
