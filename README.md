@@ -3,6 +3,8 @@
 ## 🖊️ Deskripsi
 Dataset ini berisi informasi transaksi retail, mencakup detail produk, pelanggan, dan data transaksi lainnya. Dataset ini dapat digunakan untuk analisis perilaku pelanggan, prediksi penjualan, dan pengembangan model pembelajaran mesin terkait retail.
 
+**Tanggal Pembuatan**: 2 Desember 2024
+
 ## 📈 Metadata
 - **Jumlah Baris**: 100,000
 - **Jumlah Kolom**: 9
@@ -19,6 +21,14 @@ Dataset ini berisi informasi transaksi retail, mencakup detail produk, pelanggan
 | `TotalAmount`        | Float     | Total harga transaksi setelah diskon.      |
 | `Age`                | Integer   | Umur pelanggan.                            |
 | `Gender`             | String    | Jenis kelamin pelanggan.                   |
+
+## 🔍 Metadata Penting untuk Pengelolaan dan Penggunaan
+1. **CustomerID**: Penting untuk melacak pelanggan unik dalam analisis perilaku pelanggan dan segmentasi.
+2. **ProductID**: Dibutuhkan untuk analisis inventarisasi dan tren produk.
+3. **TransactionDate**: Sangat penting untuk analisis tren penjualan berdasarkan waktu.
+4. **Price dan TotalAmount**: Dibutuhkan untuk perhitungan pendapatan, analisis diskon, dan margin keuntungan.
+5. **DiscountApplied(%)**: Berguna untuk evaluasi efektivitas promosi.
+6. **Age dan Gender**: Dapat digunakan dalam analisis demografi pelanggan.
 
 ## 🔖 Contoh Data
 | CustomerID | ProductID | Quantity | Price   | TransactionDate      | DiscountApplied(%) | TotalAmount | Age | Gender |
@@ -41,6 +51,7 @@ Dataset ini berisi informasi transaksi retail, mencakup detail produk, pelanggan
 
 ## 📄 Lisensi
 Dataset ini dilisensikan di bawah [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/) dan [Creative Commons Attribution 1.0 International License](https://creativecommons.org/publicdomain/zero/1.0/).
+
 ## 👥 Kontributor
 1. Namira Salsabilla
 - Kontak: [namira@student.telkomuniversity.ac.id](mailto:namira@student.telkomuniversity.ac.id)
@@ -48,3 +59,7 @@ Dataset ini dilisensikan di bawah [Creative Commons Attribution 4.0 Internationa
 - Kontak: [syifasalsabilaa@student.telkomuniversity.ac.id](mailto:syifasalsabilaa@student.telkomuniversity.ac.id)
 3. Haura Adzkia Delfina
 - Kontak: [hauraadzkia@student.telkomuniversity.ac.id](mailto:hauraadzkia@student.telkomuniversity.ac.id)
+
+## 🔗 Sumber
+- [Retail Transaction Dataset]( https://www.kaggle.com/datasets/fahadrehman07/retail-transaction-dataset)
+- [Retail Sales Dataset](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset)
